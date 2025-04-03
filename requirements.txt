@@ -24,4 +24,4 @@ rioxarray
 scipy
 python-pptx
 pdf2image 
-libreoffice
+
