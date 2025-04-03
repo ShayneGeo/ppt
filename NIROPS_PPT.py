@@ -35,7 +35,7 @@ def main():
 
     ppt_options = {
         "NIROPS Dataset Description": "https://github.com/ShayneGeo/ppt/raw/refs/heads/main/NIROPS_DatasetDescription.pptx",
-        "Another PPT": "https://github.com/ShayneGeo/ppt/raw/refs/heads/main/NIROPS_DatasetDescription.pptx",
+        "Another PPT": "https://github.com/ShayneGeo/ppt/raw/refs/heads/main/BlackBearBark_ThesisDefense_PPT.pdf",
         "Third PPT": "https://github.com/ShayneGeo/ppt/raw/refs/heads/main/NIROPS_DatasetDescription.pptx",
     }
 
