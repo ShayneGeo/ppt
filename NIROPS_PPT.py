@@ -25,7 +25,7 @@ def main():
             subprocess.run(["libreoffice", "--headless", "--convert-to", "pdf", ppt_path, "--outdir", output_dir], check=True)
             pdf_path = ppt_path.replace(".pptx", ".pdf")
 
-            # Convert PDF pages to images using pdf2image (requires pdf2image and Poppler)
+            # Convert PDF pages to images using pdf2image (requires pdf2image and poppler)
             images = convert_from_path(pdf_path)
             st.session_state.images = images
             st.session_state.current_slide = 0
