@@ -25,3 +25,4 @@ scipy
 python-pptx
 pdf2image 
 fitz
+frontend
