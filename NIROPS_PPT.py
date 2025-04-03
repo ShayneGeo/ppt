@@ -7,7 +7,7 @@ def main():
     st.title("PPT from GitHub Demo")
 
     # Replace this URL with the direct "raw" link to your PPT file in GitHub
-    ppt_github_url = "https://github.com/ShayneGeo/ppt/blob/main/NIROPS_DatasetDescription.pptx"
+    ppt_github_url = "https://github.com/ShayneGeo/ppt/raw/refs/heads/main/NIROPS_DatasetDescription.pptx"
 
     if st.button("Load PPT from GitHub"):
         response = requests.get(ppt_github_url)
